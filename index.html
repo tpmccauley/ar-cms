@@ -51,7 +51,7 @@
     shadow="type: pcfsoft"
     gltf-model="dracoDecoderPath: https://cdn.jsdelivr.net/npm/three@0.129.0/examples/js/libs/draco/gltf/;"
     >
-    <a-camera position="0 0.4 1"></a-camera>
+    <a-camera position="1 2 4"></a-camera>
     
     <a-light id="dirlight" auto-shadow-cam intensity="0.7" light="castShadow:true;type:directional" position="10 10 10"></a-light>
     <a-light hide-on-enter-ar intensity="0.3" light="type:hemisphere;color:yellow;groundColor:blue;" position="10 10 10"></a-light>
@@ -69,8 +69,10 @@
     
     <!-- This is hidden when the user first enters ar but becomes visible when the user can place it -->
     <a-entity hide-on-hit-test-start shadow id="my-objects" scale="0.2 0.2 0.2" position="0.2 0 -0.4">
-      <a-gltf-model position="0 8 0"
-        src="assets/scene.glb">
+      <!-- 0 8 0 is good for the event -->
+      <!-- 0 0 0 is for detector -->
+      <a-gltf-model position="0 0 0"
+        src="assets/cms_160518_01.gltf">
       </a-gltf-model>
     </a-entity>
   </a-scene>
