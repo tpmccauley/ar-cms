@@ -1,3 +1,5 @@
 # AR CMS
-<img src="https://github.com/tpmccauley/ar-cms/blob/master/img/20180720_141103.jpg"></img>
-<img src="https://github.com/tpmccauley/ar-cms/blob/master/img/20180720_141356.jpg"></img>
+ Experimental remix of AR Starter Kit by
+ @adarosecannon and @samsunginternet
+
+ [More here](https://medium.com/samsung-internet-dev/use-new-augmented-reality-features-with-just-a-few-lines-of-code-with-webxr-and-aframe-c6f3f5789345)
